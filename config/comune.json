@@ -1,18 +1,19 @@
 {
   "$schema_comment": "Identità comunale caricata a runtime da src/lib/comune-config.ts. Per un fork: copia questo file, adatta i valori, spegni i moduli non pertinenti. Vedi anche config/comune.example.json e docs/riuso-fork.md.",
-  "istat_code": "049018",
-  "nome": "San Vincenzo",
-  "nome_aliases": ["san vincenzo"],
-  "provincia": "LI",
+   "istat_code": "051004",
+  "nome": "Bibbiena",
+  "nome_aliases": ["Bibbiena"],
+  "provincia": "AR",
   "regione": "Toscana",
-  "miur_codice_catastale": "I390",
-  "farmacie_di_turno_cod": "49018",
+  "miur_codice_catastale": "A851",
+  "farmacie_di_turno_cod": "51004",
   "residenti_fallback": 6342,
   "geo": {
-    "map_center": [43.085, 10.54],
-    "meteo": [43.085, 10.54],
-    "map_default_zoom": 13
+   "map_center": [43.6975, 11.8157],
+  "meteo": [43.6975, 11.8157],
+  "map_default_zoom": 13
   },
+
   "ferrovie": {
     "stazione_viaggiatreno": "S06030",
     "stazione_nome": "San Vincenzo"
