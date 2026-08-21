@@ -14,20 +14,21 @@
   "map_default_zoom": 13
   },
 
-  "ferrovie": {
-    "stazione_viaggiatreno": "S06030",
-    "stazione_nome": "San Vincenzo"
+   "ferrovie": {
+    "stazione_viaggiatreno": "S06076",
+    "stazione_nome": "Bibbiena"
   },
   "allerte": {
-    "allertameteo_comune": "San Vincenzo",
-    "allertameteo_page_path": "toscana/livorno/san-vincenzo",
-    "toscana_zona": "E2",
-    "toscana_zona_label": "Etruria-Costa Nord",
+    "allertameteo_comune": "Bibbiena",
+    "allertameteo_page_path": "toscana/arezzo/bibbiena",
+    "toscana_zona": "A1",
+    "toscana_zona_label": "Casentino",
     "toscana_sample": [98, 152]
   },
-  "urls": {
-    "comune": "https://www.comune.sanvincenzo.li.it/",
-    "opendata": "https://cloud.ldpgis.it/sanvincenzoopen/",
+  
+"urls": {
+    "comune": "https://www.comunedibibbiena.ar.it/",
+    "opendata": "https://cloud.ldpgis.it/bibbiena/",
     "eventi_comune": "https://www.comune.sanvincenzo.li.it/Vivere-il-comune/Eventi",
     "eventi_calendario": "https://visitsanvincenzo.it/it/calendario-eventi/",
     "eventi_calendario_kind": "visit_html",
@@ -41,15 +42,15 @@
     "trasporti_gtfs_local": "/data/trasporti-gtfs-sv.json"
   },
   "brand": {
-    "stemma_path": "/stemma-san-vincenzo.png",
+    "stemma_path": "/stemma-bibbiena.png",
     "stemma_width": 399,
     "stemma_height": 500,
-    "stemma_alt": "Stemma del Comune di San Vincenzo",
-    "stemma_attribution": "Stemma di San Vincenzo, disegno di Massimo Ghirardi, per gentile concessione di Araldicacivica.it — CC BY-NC-ND 3.0 IT",
+    "stemma_alt": "Stemma del Comune di Bibbiena",
+    "stemma_attribution": "Stemma di Bibbiena",
     "stemma_license_url": "https://creativecommons.org/licenses/by-nc-nd/3.0/it/",
-    "stemma_source_url": "https://upload.wikimedia.org/wikipedia/it/8/81/San_Vincenzo_%28Italia%29-Stemma.png",
-    "site_url": "https://www.cruscottosanvincenzo.it",
-    "user_agent": "Cruscotto-San-Vincenzo/1.0 (+https://github.com/magiaslab/san-vincenzo-cruscotto)"
+    "stemma_source_url": "https://vec.wikipedia.org/wiki/File:Bibbiena-Stemma.png",
+    "site_url": "https://bibbiena-cruscotto-i6kab0n1l-vinrai.vercel.app/",
+    "user_agent": "Cruscotto-Bibbiena/1.0 (+https://github.com/vincenzoraimondo-git/bibbiena-cruscotto)"
   },
   "regione_opendata": {
     "portal_url": "https://dati.toscana.it/",
@@ -64,12 +65,12 @@
     "nota": "Per altre regioni: cerca il portale open data regionale (spesso CKAN su dati.<regione>.it), il dataset turismo ISTAT/movimenti ricettivi, GTFS TPL e allerte Protezione Civile regionali. Catalogo nazionale: https://www.dati.gov.it/"
   },
   "features": {
-    "porto": true,
-    "balneazione": true,
+    "porto": false,
+    "balneazione": false,
     "treni": true,
     "gtfs_locale": true,
     "ciclabili_pedonali": true,
-    "eventi_comune": true,
+    "eventi_comune": false,
     "eventi_regionali": true,
     "turismo_flussi": true,
     "allerte": true,
@@ -77,15 +78,15 @@
     "dae": true,
     "dae_telegram": true,
     "assistente_rag": true,
-    "biblioteca": true,
+    "biblioteca": false,
     "arpat_aria": true
   },
   "eventi_filtro_extra": [
-    "piombino",
-    "campiglia",
-    "castagneto",
-    "populonia",
-    "baratti"
+    "poppi",
+    "chiusi della verna",
+    "pratovecchio-stia",
+    "castel focognano",
+    "chitignano"
   ],
   "fork": {
     "is_upstream": true,
